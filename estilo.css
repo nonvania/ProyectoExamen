@@ -1,0 +1,470 @@
+/* TODO */
+*{
+    margin: 0%; text-decoration: none;
+    
+}
+
+
+/* CUERPO INDEX*/
+.body_index{
+    background-image: url("lans.jpg");
+    background-repeat: no-repeat ;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /*alinear horizontal*/
+    align-items: center; /* alinear vertical/ */
+}
+.contenedor_index{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family:'Courier New', Courier, monospace;
+}
+.contenedor_index_titulo{
+    text-shadow: 5px 5px 9px rgba(116, 94, 0, 0.616);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 7rem;
+}
+.contenedor_index_parrafo{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+
+}
+.boton{
+    background-color:#0e2b57c7;
+    width: 400px;
+    height: 25px;
+    color: rgb(255, 255, 255);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border: 10%;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 5%;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+.bodyy{
+    background-image: url("images.jpg");
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ENCABEZADO */
+.header__redessociales{
+    background-image: url("copia.jpg");
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+}
+.im{
+    height: 33px;
+    margin-right: 20px;
+}
+.menu{  
+    background-color: black;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu_logo{
+    height: 190%;
+}
+.menu_lista{
+    display: flex;
+    list-style: none;
+    margin-right:20px;
+    
+} 
+.menu_lista_opcion {
+    margin-right: 15px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*CUERPO*/
+.compu-main{
+    height:60vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:50px; 
+    margin-bottom: 200px;
+}
+
+.compu-imagen{
+    width: 650px;
+}
+
+.compu-imagen img{
+    width:90%;
+    border-radius: 9px;
+}
+
+.compu-informacion{
+    width:600px;
+    font-family:Arial, Helvetica, sans-serif;
+     /* margin-left: 50px; */
+}
+
+.compu-informacion h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-shadow: 3px 3px 6px black;
+    color: rgb(247, 211, 12);
+    /* margin-bottom:0; */
+}
+.compu-informacion p{
+    margin-top: 0;
+    text-shadow: 3px 3px 6px black;
+    color: white;
+}
+
+.compu-informacion{
+    text-align: center;
+}
+
+
+.compu-botonera button{
+    background-color:#0e2b57c7;
+    width: 400px;
+    height: 25px;
+    color: rgb(255, 255, 255);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border: 10%;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 5%;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* COLUMNAS/FILAS/CUADROS */
+.compu-grid{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 3px 3px 6px black;
+    margin: 50px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.compu-grid img{
+    border-radius: 10px;
+}
+
+
+.compu-cards {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    width: 50%;
+    text-shadow: 3px 3px 6px black;
+    border-radius: 10px;
+    text-align: center;
+    margin: 30px;
+    padding: 1%;
+    
+}
+.compu-cards h3{
+    font-size: 2rem;
+    
+    color: rgb(247, 211, 12);
+    margin-bottom: 0;
+}
+.compu-cards p{
+    font-size: 1rem;
+} 
+.compu-cards img{
+    width: 70%;
+}
+
+
+
+.cb{
+    width: 100px;
+    background-color:#0e2b57c7;
+    width: 400px;
+    height: 25px;
+    color: rgb(255, 255, 255);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border: 10%;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 5%;
+    cursor: pointer;
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PAGINA MORE ABOUT US */
+.cm{
+
+    height:60vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+     margin-top:100px; 
+}
+
+.ci{
+    width: 650px;
+}
+
+.ci img{
+    width:90%;
+    border-radius: 9px;
+}
+
+.cinfo{
+    width:600px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.cinfo h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    text-shadow: 3px 3px 6px black;
+    color: rgb(247, 211, 12);
+}
+.cinfo p{
+    margin-top: 0;
+    text-shadow: 3px 3px 6px black;
+    color: white;
+    font-size: 20px;
+}
+
+.cinfo{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* PAGINA 5 */
+
+.contacto{
+    height: 70vh;
+    display: flex;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content:center;
+    text-shadow: 3px 3px 6px black;
+    align-items: center;
+}
+.contacto-card{
+    text-align: center;
+}
+
+.contacto-imagen{
+    width: 300px;
+    height: 300px;
+   
+    
+}
+
+.contacto-imagen img{
+    width:100%;
+     border-radius: 35px;
+}
+
+
+
+
+
+
+
+
+
+/* PAGINA HISTORIA */
+
+.blog-titulo{
+    text-align:center;
+    /* margin-top:100px; */
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 100px 0;
+    text-shadow: 3px 3px 5px black;
+
+}
+
+.blog-titulo h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 100px;
+    color: rgb(247, 211, 12);;
+    margin: 0;
+    text-shadow: 3px 3px 6px black;
+}
+
+.blog-titulo p{
+    font-family: 'Roboto Mono', 'Roboto';
+    margin:0;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: 3px 3px 6px black;
+}
+
+.blog-cuerpo{
+    display:flex;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    margin-right: 100px;
+    align-items: center;
+    text-shadow: 3px 3px 6px black;
+}
+
+.blog-contenido{
+    width: 30%;
+    padding: 30px;
+}
+.blog-contenido h3{
+    font-size: 35px;
+}
+.blog-contenido p{
+    text-align: justify;
+}
+
+
+.blog-imagen{
+    width: 30%;
+}
+
+.blog-imagen img{
+    width:120%;
+    border-radius:20px;
+    margin-left: 45px;
+}
+
+.blog-autor{
+    width:60%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px auto;
+    color: white;
+    text-shadow: 3px 3px 6px black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.blog-autor h3{
+    font-size:30px;
+    margin:0;
+}
+
+.blog-autor p{
+    margin:0;
+}
+
+.autor-imagen{
+    width: 100px;
+    height: 100px;    
+    margin: 20px;
+}
+
+.autor-imagen img{
+    width:100%;
+    height: 95%;
+    border-radius: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FINAL PIE   */
+.footer{
+    height:60px;
+    background-image: linear-gradient(#00000000, #000000);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(26, 26, 26);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
